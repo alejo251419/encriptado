@@ -1,0 +1,31 @@
+
+
+\title{Encriptado}
+\author{alejandro.sarmiento }
+\date{September 2018}
+
+
+\begin{document}
+
+\Proyecto encryption
+
+Introduccion
+-Primero se crea la importacion de la clase de los buffers de lectura para que asi no tengamos no indique que hay algun error, la clase que se importa es (import java.io.*).
+
+ -Lo primero en este proyecto es ingresar el texto por teclado que desea encriptar por medio de los buffers. 
+ 
+ -Se debe convertir todo el texto ingresado a minuscula utilizando (tolowercase()).
+
+  -Se convierten las vocales del texto en numeros de la siguiente manera: A=4,E=3,I=1,O=0 y U=9.De esta manera el t                 texto ingresado debera quedar con las vocales ya con vertidas en  numeros y esta sera con un (.replace).
+
+  -Para realizar el proceso de cifrado se basa en el numero de la frase y la posicion de la palabra de la frase con (.split())
+  - La encriptacion  se hara de la siguiente mane ra:
+  *Con el texto ingresado ya convertido en minusculas y las vocales convertidas en numeros, crearemos un (.tochararray)         para asi pasar a un arreglo de caracteres. 
+  *Se crea un for que recorra caracter por caracter del arreglo y asi este for caracter a caracter  sumando +1 a letras ("excepto    las vocales").
+   * Para la descencriptacion  creo un char array que me disminuya 
+   -Ejemplo del programa:
+    Hola
+    hola
+    h0l4
+    i1m5
+\section {Conclusion Este programa es importante ya que muy pocos conocen sobre este tema, aunque pocos conozcan la encriptacion fue algo muy interesente y importante en la epoca de la segunda guerra mundial.
